@@ -1,0 +1,19 @@
+.shop-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-container{
+    width: 80%;
+    background-color: #898989;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    
+}
+.cart-container{
+    width: 20%;
+    background-color: #2a1010;
+    
+}

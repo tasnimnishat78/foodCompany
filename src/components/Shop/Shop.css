@@ -1,19 +1,19 @@
 .shop-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
 }
 
 .products-container{
-    width: 80%;
-    background-color: #898989;
+    
+    background-color: #ffffff;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    padding: 100px;
     
 }
 .cart-container{
-    width: 20%;
+    
     background-color: #2a1010;
     
 }

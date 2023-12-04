@@ -1,6 +1,6 @@
 .header{
     height: 80px;
-    background-color: #1C2B35;
+    background-color: #e9f6ff;
     display: flex;
     justify-content: space-between;
     padding: 0px 100px;
@@ -10,7 +10,7 @@
 .header a{
     font-size: 17px;
     font-weight: 400;
-    color: aliceblue;
+    color: rgb(37, 37, 37);
     padding-left: 30px;
     font-style: normal;
     line-height: normal;
